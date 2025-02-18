@@ -1,0 +1,22 @@
+.movieItem {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .movieItem img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movieItem img:hover {
+    transform: scale(1.05);
+  }
+  
+  .movieItem p {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
